@@ -88,4 +88,4 @@
    myObject.name = "notMyName"   //property 변경
    myObject.weight = 50;   //property 추가
    ```
-   *const로 선언했지만 수정이 가능한 이유: Object를 수정하는것과 내부를 수정하는것은 다름.   Object 내부를 수정하는건 ok, Object 자체를 변경하는건 x   ex) myObject = false;, my Object = "me";
+   *const로 선언했지만 수정이 가능한 이유: Object를 수정하는것과 내부를 수정하는것은 다름.<br>Object 내부를 수정하는건 ok, Object 자체를 변경하는건 x<br>ex) myObject = false;, my Object = "me";
