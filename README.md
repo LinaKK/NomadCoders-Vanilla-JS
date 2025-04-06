@@ -72,3 +72,20 @@
    <br>
   *언어는 계속 업데이트 or 패치가 일어남. const, let이전에는 var를 사용. var는 언제나 입력된 데이터를 수정할 수 있다. 이후 const와 let으로 변경되지 않는 데이터와 변경 가능한 데이터를 구분하여 사용.*
 
+4. 변수 사용 방법
+   <br>
+   ```javascript
+   const num = 1;   //int
+   
+   const name = "myName"   //String
+   
+   const myArray = ["popcorn", 1, 2, "a"];    //array
+   
+   const myObject = {   //Object
+      name: "myName",
+      birthday: 1012,
+      }
+   myObject.name = "notMyName"   //property 변경
+   myObject.weight = 50;   //property 추가
+   ```
+   *const로 선언했지만 수정이 가능한 이유: Object를 수정하는것과 내부를 수정하는것은 다름.   Object 내부를 수정하는건 ok, Object 자체를 변경하는건 x   ex) myObject = false;, my Object = "me";
